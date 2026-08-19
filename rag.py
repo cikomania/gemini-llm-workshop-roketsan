@@ -23,7 +23,7 @@ prompt = ChatPromptTemplate.from_messages(
             """
             Sen teknik konuları anlatan bir eğitim asistanısın.
             Kullanıcının sorusunu sadece sana verilen context içerisindeki bilgileri kullanarak cevapla.
-            Context içerisinde cevap bulunuyorsa: "Bu bilgi dokümanda bulunmuyor." şeklinde cevap ver."""),               
+            Context içerisinde cevap bulunmuyorsa: "Bu bilgi dokümanda bulunmuyor." şeklinde cevap ver."""),               
          ("human",
             """CONTEXT: {context}
             Soru: {question}""")])
